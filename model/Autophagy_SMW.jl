@@ -1,0 +1,243 @@
+module models
+using Catalyst
+
+export original_model, revised_model
+
+revised_model = @reaction_network begin
+    k1,          DS+P53-->P53A+DS
+    k3,          P53A-->MDM2+P53A
+    k5,          MDM2-->0
+    k7,          MDM2+P53A-->MDM2
+    k9,          P53A+BAX-->BAXA+P53A
+    k11,         P53A-->P53A+BAX
+    k13,         P53A+BCL2-->P53A_BCL2
+    k15,         P53A_BCL2-->P53A+BCL2
+    k17,         BCL2+BAX-->BCL2_BAX
+    k19,         BCL2_BAX-->BCL2+BAX
+    k21,         BAXA-->BAX
+    k23,         BAX-->0
+    k25,         BAXA+CYTCM-->BAXA+CYTC
+    k27,         UVG+BAX-->UVG_BAX
+    k29,         UVG_BAX-->UVG+BAX
+    k31,         CALPAINA+BID-->CALPAINA+TBID
+    k33,         TBID-->0
+    k35,         0-->BID
+    k37,         TBID+CYTCM-->TBID+CYTC
+    k39,         CYTC-->0
+    k41,         CYTC+PROCASP-->CYTC+CASP
+    k43,         CASP+PROCASP-->2CASP
+    k45,         CASP+BID-->TBID+CASP
+    k47,         DS+DAPK-->DS+DAPKA
+    k49,         DAPKA-->DAPK
+    k51,         P53A+AMPKA-->P53A+AMPK
+    k53,         0+P53A-->P53A+PUMA
+    k55,         PUMA+BCL2-->BCL2_PUMA
+    k57,         BCL2_PUMA-->PUMA+BCL2
+    k59,         PUMA-->0
+    k61,         DAPKA+BEC1_BCL2-->DAPKA+BEC1+BCL2
+    k63,         TG+SERCA-->TG_SERCA
+    k65,         TG_SERCA-->TG+SERCA
+    k67,         CA2IC+SERCA-->CA2ER+SERCA
+    k69,         CCH+PLCE-->PLCEA
+    k71,         EPACA+PLCE-->EPACA+PLCEA
+    k73,         PLCEA-->PLCE
+    k75,         PLCEA+PIP2-->PLCEA+IP3
+    k77,         IP3R+IP3-->IP3R_IP3
+    k79,         IP3R_IP3-->IP3R+IP3
+    k81,         CA2ER+IP3R_IP3-->CA2IC+IP3R_IP3
+    k83,         IP3R_IP3+PHAG-->IP3R_IP3
+    k85,         IP3-->PIP2
+    k87,         CA2IC+CAMKKB-->CA2IC+CAMKKBA
+    k89,         AMPK+CAMKKBA-->AMPKA+CAMKKBA
+    k91,         CA2IC+CALPAIN-->CA2IC+CALPAINA
+    k93,         CALPAINA-->CALPAIN
+    k95,         CALPAINA+GA-->GAA+CALPAINA
+    k97,         AC+GAA-->AC_GAA
+    k99,         AC_GAA-->AC+GAA
+    k101,        AC_GAA-->AC_GAA+CAMP
+    k103,        CAMP-->0
+    k105,        CAMP+EPAC-->CAMP+EPACA
+    k107,        EPACA-->EPAC
+    k109,        GAA-->GA
+    k111,        GABC+GPCRA-->GAA+GBC+GPCRA
+    k113,        GA+GBC-->GABC
+    k115,        RAP+MTOR-->MTOR_RAP
+    k117,        MTOR_RAP-->RAP+MTOR
+    k119,        RAP+MTORA-->MTOR_RAP
+    k121,        MTOR_RAP-->RAP+MTORA
+    k123,        AMPKA+MTORA-->AMPKA+MTOR
+    k125,        MTORA-->MTOR
+    k127,        MTORA+AMPKA-->MTORA+AMPK
+    k129,        ULKA+MTORA-->MTORA+ULK
+    k131,        ULKA+MTORA-->MTOR+ULKA
+    k133,        AMPKA+TSC-->AMPKA+TSCA
+    k135,        RHEBA+TSCA-->RHEB+TSCA
+    k137,        RHEBA+MTOR-->RHEBA+MTORA
+    k139,        RHEB-->RHEBA
+    k141,        AKTA-->AKT
+    k143,        AKTA+TSCA-->AKTA+TSC
+    k145,        ATG5T+BCL2-->ATG5_BCL2
+    k147,        ATG5_BCL2-->ATG5T+BCL2
+    k149,        CALPAINA+ATG5-->CALPAINA+ATG5T
+    k151,        CALPAINA+BEC1-->CALPAINA
+    k153,        IP3R+BCL2-->IP3R_BCL2
+    k155,        IP3R_BCL2-->IP3R+BCL2
+    k157,        BEC1+BCL2-->BEC1_BCL2
+    k159,        BEC1_BCL2-->BEC1+BCL2
+    k161,        ULKA-->ULKA+PHAG
+    k163,        AMPKA+ULK-->AMPKA+ULKA
+    k165,        AMPK+NS-->AMPKA+NS
+    k167,        AMPKA-->AMPK
+    k169,        ULKA-->ULK
+    k171,        AMPKA+ULKA-->AMPK+ULKA
+    k173,        PHAG+BEC1-->PREAUT+BEC1
+    k175,        PHAG+BEC1_UVG-->PREAUT+BEC1_UVG
+    k177,        BEC1A+UVG-->BEC1_UVG
+    k179,        BEC1_UVG-->BEC1A+UVG
+    k181,        0-->BEC1
+    k183,        PHAG-->0
+    k185,        ATG5+PHAG-->ATG5+AUT
+    k187,        AUT-->0
+    k189,        AUT+NS-->AUT
+    k191,        AUT+DS-->AUT
+    k193,        0-->PHAG
+    k195,        PREAUT-->0
+    k197,        0+P53A-->P53A+DRAM
+    k199,        DRAM-->0
+    k201,        DRAM+PREAUT-->DRAM+AUT
+    k203,        0-->ATG5
+    k205,        ATG5T-->0
+    k207,        ATG5-->0
+    k209,        CAMP+PKA-->PKAA+CAMP
+    k211,        PKAA+PHAG-->PKAA
+    k213,        PKAA-->PKA
+    k215,        PKC_CA2IC+PLCEA-->PLCE+PKC_CA2IC
+    k217,        PKC+CA2IC-->PKC_CA2IC
+    k219,        BEC1+ULKA-->BEC1A+ULKA
+    k221,        INSULIN+PI3K-->PI3KA+INSULIN
+    k223,        PI3KA-->PI3K
+    k225,        PI3KA+AKT-->AKTA+PI3K
+end
+
+original_model = @reaction_network begin
+    k0,          AMPK+nS-->AMPKa+nS
+    k1,          AMPKa-->AMPK
+    k2,          AMPKa+mTORa-->AMPKa+mTOR
+    k3,          AMPKa+mTORa_ULKa-->AMPKa+mTOR+ULKa
+    k4,          mTORa-->mTOR
+    k5,          mTORa+AMPKa-->mTORa+AMPK
+    (k6, k7),    ULK+mTORa<-->mTORa_ULK
+    (k8, k9),    ULKa+mTORa<-->mTORa_ULK
+    k10,         AMPKa+ULK-->AMPKa+ULKa
+    k11,         ULKa-->ULKa+phag
+    k12,         AMPKa+TSC-->AMPKa+TSCa
+    k13,         RHEBa+TSCa-->RHEB+TSCa
+    k14,         RHEBa+mTOR-->RHEBa+mTORa
+    k15,         RHEB-->RHEBa
+    k16,         ULKa-->ULK
+    k17,         AMPKa+ULKa-->AMPK+ULKa
+    k18,         phag+BEC1-->preAUT+BEC1
+    k19,         phag+BEC1_UVG-->preAUT+BEC1_UVG
+    (k20, k21),  BEC1+UVG<-->BEC1_UVG
+    k22,         0-->BEC1
+    k23,         BEC1c-->cytc+BEC1c
+    k24,         BEC1c-->0
+    k25,         phag-->0
+    k26,         ATG5+phag-->ATG5+AUT
+    k27,         AUT-->0
+    k28,         AUT+nS-->AUT
+    k29,         AUT+eS-->AUT
+    k30,         0-->phag
+    k31,         eS+PERK-->PERKa
+    k32,         ATF4a-->phag
+    k33,         PERKa+ATF4-->PERK+ATF4a
+    k34,         preAUT-->0
+    k35,         dS+DAPK-->dS+DAPKa
+    k36,         DAPKa-->DAPK
+    k37,         EPACa+PLCe-->EPACa+PLCea
+    k38,         PLCea-->PLCe
+    k39,         PLCea+PIP2-->PLCea+IP3
+    k40,         Ca2er+IP3R_IP3-->Ca2ic+IP3R_IP3
+    k41,         Ca2ic+SERCA-->Ca2er+SERCA
+    k42,         Ca2ic+Bax-->Ca2ic+Baxa
+    (k43, k44),  IP3R+IP3<-->IP3R_IP3
+    k45,         IP3-->IP2
+    k46,         IP2-->IP
+    k47,         IP-->Ins
+    k48,         Ins-->PIP2
+    k49,         IP3R_IP3+phag-->IP3R_IP3
+    k50,         Ca2ic+CaMKKb-->Ca2ic+CaMKKba
+    k51,         CaMKKba-->Ca2ic+CaMKKb
+    k52,         AMPK+CaMKKba-->AMPKa+CaMKKba
+    (k53, k54),  IP3R+BCL2<-->IP3R_BCL2
+    (k55, k56),  BEC1+BCL2<-->BEC1_BCL2
+    k57,         BCL2p-->BCL2
+    k58,         Ca2ic+Calpain-->Ca2ic+Calpaina
+    k59,         Calpaina-->Calpain
+    k60,         Calpaina+Ga-->Gaa+Calpaina
+    k61,         Calpaina+ATG5-->Calpaina+ATG5t
+    (k62, k63),  ATG5t+BCL2<-->ATG5_BCL2
+    k64,         Calpaina+Bid-->Calpaina+tBid
+    k65,         Calpaina+BEC1-->Calpaina
+    (k66, k67),  AC+Gaa<-->AC_Gaa
+    k68,         AC_Gaa-->AC_Gaa+cAMP
+    k69,         cAMP-->0
+    k70,         cAMP+EPAC-->cAMP+EPACa
+    k71,         EPACa-->EPAC
+    k72,         Ga-->G
+    (k73, k74),  AC+Ga<-->AC_Ga
+    k75,         Gabg+GPCRa-->Ga+Gbg+GPCRa
+    k76,         Ga+Gbg-->Gabg
+    (k77, k78),  BCL2+Bax<-->BCL2_Bax
+    k79,         Bax+p53m-->Baxa+p53m
+    k80,         Baxa-->Bax
+    k81,         Bax-->0
+    (k82, k83),  UVG+Bax<-->UVG_Bax
+    k84,         cytc+caspase-->cytc+caspasea
+    k85,         Bid+caspasea-->tBid+caspasea
+    k86,         tBid-->0
+    k87,         0-->Bid
+    k88,         JNKa+caspase-->JNKa+caspasea
+    k89,         0+dS-->dS+p53c
+    k90,         p53c-->0
+    (k91, k92),  p53c<-->p53a
+    k93,         0+p53a-->p53a+Mdm2
+    k94,         p53c+Mdm2-->p53m+Mdm2
+    k95,         0+p53a-->p53a+Bax
+    (k96, k97),  p53m+BCL2<-->p53_BCL2
+    k98,         Mdm2-->0
+    k99,         0+p53a-->p53a+DRAM
+    k100,        DRAM-->0
+    k101,        DRAM+preAUT-->DRAM+AUT
+    k102,        p53c+AMPKa-->p53c+AMPK
+    k103,        0+p53a-->p53a+PUMA
+    (k104, k105),PUMA+BCL2<-->PUMA_BCL2
+    k106,        PUMA-->0
+    k107,        0+Baxa-->cytc+Baxa
+    k108,        cytc-->0
+    k109,        mTORa+TFEBi-->mTORa+TFEB
+    k110,        phag+TFEB-->AUT+TFEB
+    k111,        TFEB-->TFEBi
+    k112,        Ins+PI3K-->Ins+PI3Ka
+    k113,        PI3Ka-->PI3K
+    k114,        AKT+PI3Ka-->AKTa+PI3K
+    k115,        AKTa-->AKT
+    k116,        AKTa+TSCa-->AKTa+TSC
+    k117,        AKTa+mTORa_ULKa-->AKTa+mTOR+ULKa
+    k118,        JNKa+BCL2-->JNKa+BCL2p
+    k119,        JNKa+BEC1_BCL2-->JNKa+BEC1+BCL2p
+    k120,        DAPKa+BEC1_BCL2-->DAPKa+BEC1+BCL2
+    k121,        eS+JNK-->eS+JNKa
+    k122,        JNKa-->JNK
+    k123,        nS+MAPK15-->nS+MAPK15a
+    k124,        MAPK15a-->MAPK15
+    k125,        PKA+MAPK15a-->PKAa+MAPK15a
+    k126,        PKAa-->PKA
+    k127,        PKAa+phag-->PKAa+preAUT
+    k128,        PKAa+preAUT-->PKAa+AUT
+    k129,        0-->ATG5
+    k130,        ATG5t-->0
+    k131,        ATG5-->0
+end
+
+end

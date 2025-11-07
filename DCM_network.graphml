@@ -1,0 +1,4237 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d9" for="edge" attr.name="mode" attr.type="string"/>
+<key id="d8" for="edge" attr.name="type" attr.type="string"/>
+<key id="d7" for="node" attr.name="tau" attr.type="long"/>
+<key id="d6" for="node" attr.name="group" attr.type="long"/>
+<key id="d5" for="node" attr.name="constant" attr.type="boolean"/>
+<key id="d4" for="node" attr.name="value" attr.type="long"/>
+<key id="d3" for="node" attr.name="mode" attr.type="string"/>
+<key id="d2" for="node" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="graph" attr.name="name" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">DCM: CD4_model</data>
+<node id="var-0-out-0">
+  <data key="d1">AA_Starvation</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">104</data>
+</node>
+<node id="var-0-out-1">
+  <data key="d1">AA_Starvation</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">104</data>
+</node>
+<node id="var-1-out-0">
+  <data key="d1">AHSA1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">1</data>
+</node>
+<node id="var-1-out-1">
+  <data key="d1">AHSA1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">1</data>
+</node>
+<node id="var-97-out-0">
+  <data key="d1">STK11</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">97</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-97-out-1">
+  <data key="d1">STK11</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">97</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-2-out-0">
+  <data key="d1">AKT1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">109</data>
+</node>
+<node id="var-2-out-1">
+  <data key="d1">AKT1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">109</data>
+</node>
+<node id="thr-0-var-2-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">2</data>
+</node>
+<node id="var-63-out-0">
+  <data key="d1">MTOR_C2</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">63</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-78-out-1">
+  <data key="d1">PPP2R</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">78</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-76-out-0">
+  <data key="d1">PIK3CA</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">88</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-2-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">2</data>
+</node>
+<node id="var-63-out-1">
+  <data key="d1">MTOR_C2</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">63</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-76-out-1">
+  <data key="d1">PIK3CA</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">88</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-3-var-2-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">2</data>
+</node>
+<node id="var-78-out-0">
+  <data key="d1">PPP2R</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">78</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-3-out-0">
+  <data key="d1">AMBRA1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">102</data>
+</node>
+<node id="var-3-out-1">
+  <data key="d1">AMBRA1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">102</data>
+</node>
+<node id="var-105-out-0">
+  <data key="d1">ULK1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">107</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-3-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">3</data>
+</node>
+<node id="fus-0-thr-1-var-3-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">3</data>
+</node>
+<node id="var-27-out-1">
+  <data key="d1">Caspase_3_6_7_C</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">27</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-62-out-1">
+  <data key="d1">MTOR</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">105</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-3-out-1">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">3</data>
+</node>
+<node id="var-27-out-0">
+  <data key="d1">Caspase_3_6_7_C</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">27</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-62-out-0">
+  <data key="d1">MTOR</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">105</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-105-out-1">
+  <data key="d1">ULK1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">107</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-4-out-0">
+  <data key="d1">ATF4</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">114</data>
+</node>
+<node id="var-4-out-1">
+  <data key="d1">ATF4</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">114</data>
+</node>
+<node id="var-110-out-0">
+  <data key="d1">mRNA_ATF4</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">110</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-110-out-1">
+  <data key="d1">mRNA_ATF4</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">110</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-5-out-0">
+  <data key="d1">ATG13</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">107</data>
+</node>
+<node id="var-5-out-1">
+  <data key="d1">ATG13</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">107</data>
+</node>
+<node id="var-6-out-0">
+  <data key="d1">ATG14</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">75</data>
+</node>
+<node id="var-6-out-1">
+  <data key="d1">ATG14</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">75</data>
+</node>
+<node id="var-19-out-0">
+  <data key="d1">BECN1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">75</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-19-out-1">
+  <data key="d1">BECN1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">75</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-7-out-0">
+  <data key="d1">ATG3</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">55</data>
+</node>
+<node id="var-7-out-1">
+  <data key="d1">ATG3</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">55</data>
+</node>
+<node id="var-10-out-0">
+  <data key="d1">Atg16L_Atg5_Atg12</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">10</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-10-out-1">
+  <data key="d1">Atg16L_Atg5_Atg12</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">10</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-8-out-0">
+  <data key="d1">ATM</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">97</data>
+</node>
+<node id="var-8-out-1">
+  <data key="d1">ATM</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">97</data>
+</node>
+<node id="var-71-out-0">
+  <data key="d1">O_stress</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">71</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-71-out-1">
+  <data key="d1">O_stress</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">71</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-9-out-0">
+  <data key="d1">Apoptosis</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">9</data>
+</node>
+<node id="var-9-out-1">
+  <data key="d1">Apoptosis</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">9</data>
+</node>
+<node id="var-74-out-0">
+  <data key="d1">PI3P</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">108</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-74-out-1">
+  <data key="d1">PI3P</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">108</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-11-out-0">
+  <data key="d1">Atphgo_form</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">12</data>
+</node>
+<node id="var-11-out-1">
+  <data key="d1">Atphgo_form</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">12</data>
+</node>
+<node id="thr-0-var-11-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">11</data>
+</node>
+<node id="fus-0-thr-0-var-11-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">11</data>
+</node>
+<node id="var-55-out-0">
+  <data key="d1">MAP1LC3A_II</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">55</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-108-out-0">
+  <data key="d1">WIPI_1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">108</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-11-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">11</data>
+</node>
+<node id="var-55-out-1">
+  <data key="d1">MAP1LC3A_II</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">55</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-108-out-1">
+  <data key="d1">WIPI_1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">108</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-12-out-0">
+  <data key="d1">Atphgo_mat</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">60</data>
+</node>
+<node id="var-12-out-1">
+  <data key="d1">Atphgo_mat</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">60</data>
+</node>
+<node id="thr-0-var-12-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">12</data>
+</node>
+<node id="fus-0-thr-0-var-12-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">12</data>
+</node>
+<node id="var-83-out-0">
+  <data key="d1">RAB7A</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">83</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-12-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">12</data>
+</node>
+<node id="var-83-out-1">
+  <data key="d1">RAB7A</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">83</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-13-out-0">
+  <data key="d1">Autop_digestion</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">93</data>
+</node>
+<node id="var-13-out-1">
+  <data key="d1">Autop_digestion</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">93</data>
+</node>
+<node id="var-14-out-0">
+  <data key="d1">BAX</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">60</data>
+</node>
+<node id="var-14-out-1">
+  <data key="d1">BAX</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">60</data>
+</node>
+<node id="var-16-out-1">
+  <data key="d1">BCL2</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">18</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-14-out-0">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">14</data>
+</node>
+<node id="var-15-out-0">
+  <data key="d1">BBC3</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">18</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-17-out-0">
+  <data key="d1">BCL2L11</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">19</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-20-out-0">
+  <data key="d1">BID</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">20</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-14-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">14</data>
+</node>
+<node id="var-16-out-0">
+  <data key="d1">BCL2</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">18</data>
+  <data key="d5">False</data>
+</node>
+<node id="fus-0-thr-2-var-14-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">14</data>
+</node>
+<node id="var-15-out-1">
+  <data key="d1">BBC3</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">18</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-17-out-1">
+  <data key="d1">BCL2L11</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">19</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-20-out-1">
+  <data key="d1">BID</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">20</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-0-var-15-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">15</data>
+</node>
+<node id="var-96-out-0">
+  <data key="d1">SP1_sustained</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">96</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-111-out-0">
+  <data key="d1">mRNA_BBC3</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">111</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-15-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">15</data>
+</node>
+<node id="var-96-out-1">
+  <data key="d1">SP1_sustained</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">96</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-111-out-1">
+  <data key="d1">mRNA_BBC3</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">111</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-3-var-15-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">15</data>
+</node>
+<node id="thr-0-var-16-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">16</data>
+</node>
+<node id="fus-0-thr-0-var-16-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">16</data>
+</node>
+<node id="var-52-out-1">
+  <data key="d1">KEAP1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">67</data>
+  <data key="d5">True</data>
+</node>
+<node id="var-58-out-1">
+  <data key="d1">MAPK8</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">58</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-112-out-0">
+  <data key="d1">mRNA_BCL2</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">112</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-16-out-1">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">16</data>
+</node>
+<node id="var-52-out-0">
+  <data key="d1">KEAP1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">67</data>
+  <data key="d5">True</data>
+</node>
+<node id="var-58-out-0">
+  <data key="d1">MAPK8</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">58</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-112-out-1">
+  <data key="d1">mRNA_BCL2</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">112</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-113-out-0">
+  <data key="d1">mRNA_BCL2L11</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">113</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-17-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">17</data>
+</node>
+<node id="var-24-out-0">
+  <data key="d1">CHOP_sustained</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">111</data>
+  <data key="d5">False</data>
+</node>
+<node id="fus-0-thr-1-var-17-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">17</data>
+</node>
+<node id="thr-2-var-17-out-1">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">17</data>
+</node>
+<node id="var-113-out-1">
+  <data key="d1">mRNA_BCL2L11</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">113</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-3-var-17-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">17</data>
+</node>
+<node id="var-24-out-1">
+  <data key="d1">CHOP_sustained</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">111</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-18-out-0">
+  <data key="d1">BCL2_BECN1_C</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">19</data>
+</node>
+<node id="var-18-out-1">
+  <data key="d1">BCL2_BECN1_C</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">19</data>
+</node>
+<node id="thr-0-var-18-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">18</data>
+</node>
+<node id="fus-0-thr-0-var-18-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">18</data>
+</node>
+<node id="thr-1-var-18-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">18</data>
+</node>
+<node id="fus-0-thr-1-var-18-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">18</data>
+</node>
+<node id="var-30-out-1">
+  <data key="d1">DAPK1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">80</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-57-out-1">
+  <data key="d1">MAP3K</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">98</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-18-out-1">
+  <data key="d1">6</data>
+  <data key="d2">threshold</data>
+  <data key="d7">6</data>
+  <data key="d6">18</data>
+</node>
+<node id="var-30-out-0">
+  <data key="d1">DAPK1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">80</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-57-out-0">
+  <data key="d1">MAP3K</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">98</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-0-var-19-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">19</data>
+</node>
+<node id="fus-0-thr-0-var-19-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">19</data>
+</node>
+<node id="var-109-out-1">
+  <data key="d1">YWHAB</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">109</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-19-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">19</data>
+</node>
+<node id="fus-0-thr-1-var-19-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">19</data>
+</node>
+<node id="var-102-out-0">
+  <data key="d1">TRAF6</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">107</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-107-out-0">
+  <data key="d1">Ulk_C</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">107</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-19-out-1">
+  <data key="d1">7</data>
+  <data key="d2">threshold</data>
+  <data key="d7">7</data>
+  <data key="d6">19</data>
+</node>
+<node id="var-102-out-1">
+  <data key="d1">TRAF6</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">107</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-107-out-1">
+  <data key="d1">Ulk_C</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">107</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-109-out-0">
+  <data key="d1">YWHAB</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">109</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-22-out-0">
+  <data key="d1">CASP8</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">27</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-22-out-1">
+  <data key="d1">CASP8</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">27</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-21-out-0">
+  <data key="d1">CAMKKB</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">79</data>
+</node>
+<node id="var-21-out-1">
+  <data key="d1">CAMKKB</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">79</data>
+</node>
+<node id="var-25-out-0">
+  <data key="d1">Ca_cyto</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">30</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-25-out-1">
+  <data key="d1">Ca_cyto</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">30</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-99-out-0">
+  <data key="d1">TNF_R_or_DR</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">99</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-37-out-1">
+  <data key="d1">FLIP</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">37</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-22-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">22</data>
+</node>
+<node id="var-37-out-0">
+  <data key="d1">FLIP</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">37</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-99-out-1">
+  <data key="d1">TNF_R_or_DR</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">99</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-23-out-0">
+  <data key="d1">CHOP</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">113</data>
+</node>
+<node id="var-23-out-1">
+  <data key="d1">CHOP</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">113</data>
+</node>
+<node id="var-114-out-0">
+  <data key="d1">mRNA_CHOP</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">114</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-114-out-1">
+  <data key="d1">mRNA_CHOP</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">114</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-35-out-0">
+  <data key="d1">ER_stress</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">48</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-35-out-1">
+  <data key="d1">ER_stress</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">48</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-26-out-0">
+  <data key="d1">Caspase9_APAF1_C</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">27</data>
+</node>
+<node id="var-26-out-1">
+  <data key="d1">Caspase9_APAF1_C</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">27</data>
+</node>
+<node id="var-29-out-0">
+  <data key="d1">Cyt_C</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">29</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-29-out-1">
+  <data key="d1">Cyt_C</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">29</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-0-var-27-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">27</data>
+</node>
+<node id="thr-1-var-27-out-1">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">27</data>
+</node>
+<node id="fus-0-thr-1-var-27-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">27</data>
+</node>
+<node id="var-28-out-0">
+  <data key="d1">Cell_cycle</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">82</data>
+</node>
+<node id="var-28-out-1">
+  <data key="d1">Cell_cycle</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">82</data>
+</node>
+<node id="var-118-out-1">
+  <data key="d1">pRB</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">118</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-118-out-0">
+  <data key="d1">pRB</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">118</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-60-out-0">
+  <data key="d1">MOMP</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">77</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-60-out-1">
+  <data key="d1">MOMP</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">77</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-0-var-30-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">30</data>
+</node>
+<node id="thr-1-var-30-out-1">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">30</data>
+</node>
+<node id="fus-0-thr-1-var-30-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">30</data>
+</node>
+<node id="var-31-out-0">
+  <data key="d1">EGFR</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-31-out-1">
+  <data key="d1">EGFR</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-43-out-0">
+  <data key="d1">Growth_factor</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">115</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-43-out-1">
+  <data key="d1">Growth_factor</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">115</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-32-out-0">
+  <data key="d1">EIF2AK3</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">110</data>
+</node>
+<node id="var-32-out-1">
+  <data key="d1">EIF2AK3</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">110</data>
+</node>
+<node id="var-33-out-0">
+  <data key="d1">EIF4E</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">82</data>
+</node>
+<node id="var-33-out-1">
+  <data key="d1">EIF4E</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">82</data>
+</node>
+<node id="var-34-out-1">
+  <data key="d1">EIF4EBP1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">34</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-34-out-0">
+  <data key="d1">EIF4EBP1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">34</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-0-var-35-out-0">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">35</data>
+</node>
+<node id="var-42-out-0">
+  <data key="d1">Glucose_starv</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">42</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-35-out-1">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">35</data>
+</node>
+<node id="fus-0-thr-1-var-35-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">35</data>
+</node>
+<node id="var-42-out-1">
+  <data key="d1">Glucose_starv</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">42</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-36-out-0">
+  <data key="d1">FKBP8</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">62</data>
+</node>
+<node id="var-36-out-1">
+  <data key="d1">FKBP8</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">62</data>
+</node>
+<node id="var-87-out-1">
+  <data key="d1">RHEB</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">87</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-87-out-0">
+  <data key="d1">RHEB</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">87</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-38-out-0">
+  <data key="d1">FOXO</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">101</data>
+</node>
+<node id="var-38-out-1">
+  <data key="d1">FOXO</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">101</data>
+</node>
+<node id="thr-1-var-38-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">38</data>
+</node>
+<node id="fus-0-thr-1-var-38-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">38</data>
+</node>
+<node id="thr-2-var-38-out-1">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">38</data>
+</node>
+<node id="var-39-out-0">
+  <data key="d1">GAB</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-39-out-1">
+  <data key="d1">GAB</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-40-out-0">
+  <data key="d1">GRB2</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">94</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-40-out-1">
+  <data key="d1">GRB2</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">94</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-41-out-0">
+  <data key="d1">GSK3A</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">67</data>
+</node>
+<node id="var-41-out-1">
+  <data key="d1">GSK3A</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">67</data>
+</node>
+<node id="thr-0-var-41-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">41</data>
+</node>
+<node id="fus-0-thr-0-var-41-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">41</data>
+</node>
+<node id="var-91-out-1">
+  <data key="d1">RPS6KB1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">91</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-41-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">41</data>
+</node>
+<node id="var-91-out-0">
+  <data key="d1">RPS6KB1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">91</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-44-out-0">
+  <data key="d1">H2O2</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">116</data>
+</node>
+<node id="var-44-out-1">
+  <data key="d1">H2O2</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">116</data>
+</node>
+<node id="thr-0-var-44-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">44</data>
+</node>
+<node id="var-65-out-0">
+  <data key="d1">Mito_overcharge</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">65</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-90-out-0">
+  <data key="d1">ROMO1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">90</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-44-out-1">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">44</data>
+</node>
+<node id="fus-0-thr-1-var-44-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">44</data>
+</node>
+<node id="var-65-out-1">
+  <data key="d1">Mito_overcharge</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">65</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-90-out-1">
+  <data key="d1">ROMO1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">90</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-45-out-0">
+  <data key="d1">IKBKB</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-45-out-1">
+  <data key="d1">IKBKB</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-46-out-0">
+  <data key="d1">IP3R</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">47</data>
+</node>
+<node id="var-46-out-1">
+  <data key="d1">IP3R</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">47</data>
+</node>
+<node id="var-47-out-0">
+  <data key="d1">IP3R_VDAC</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">65</data>
+</node>
+<node id="var-47-out-1">
+  <data key="d1">IP3R_VDAC</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">65</data>
+</node>
+<node id="var-48-out-0">
+  <data key="d1">IRE1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">58</data>
+</node>
+<node id="var-48-out-1">
+  <data key="d1">IRE1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">58</data>
+</node>
+<node id="var-49-out-0">
+  <data key="d1">IRS1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-49-out-1">
+  <data key="d1">IRS1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-50-out-0">
+  <data key="d1">Insuline</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">50</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-49-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">49</data>
+</node>
+<node id="var-50-out-1">
+  <data key="d1">Insuline</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">50</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-51-out-0">
+  <data key="d1">JIP</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">58</data>
+</node>
+<node id="var-51-out-1">
+  <data key="d1">JIP</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">58</data>
+</node>
+<node id="var-104-out-0">
+  <data key="d1">Tubulin</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">104</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-104-out-1">
+  <data key="d1">Tubulin</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">104</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-53-out-0">
+  <data key="d1">Kinesin_1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">58</data>
+</node>
+<node id="var-53-out-1">
+  <data key="d1">Kinesin_1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">58</data>
+</node>
+<node id="var-54-out-0">
+  <data key="d1">Lysosome_prod</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">54</data>
+</node>
+<node id="var-54-out-1">
+  <data key="d1">Lysosome_prod</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">54</data>
+</node>
+<node id="var-98-out-0">
+  <data key="d1">TFEB</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">98</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-98-out-1">
+  <data key="d1">TFEB</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">98</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-56-out-0">
+  <data key="d1">MAP2K1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">57</data>
+</node>
+<node id="var-56-out-1">
+  <data key="d1">MAP2K1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">57</data>
+</node>
+<node id="thr-0-var-56-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">56</data>
+</node>
+<node id="var-79-out-0">
+  <data key="d1">PRKA</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">105</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-84-out-0">
+  <data key="d1">RAF</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">84</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-56-out-1">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">56</data>
+</node>
+<node id="fus-0-thr-1-var-56-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">56</data>
+</node>
+<node id="var-79-out-1">
+  <data key="d1">PRKA</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">105</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-84-out-1">
+  <data key="d1">RAF</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">84</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-0-var-58-out-0">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">58</data>
+</node>
+<node id="var-80-out-0">
+  <data key="d1">PRKD1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">80</data>
+  <data key="d5">False</data>
+</node>
+<node id="fus-0-thr-0-var-58-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">58</data>
+</node>
+<node id="thr-1-var-58-out-1">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">58</data>
+</node>
+<node id="fus-0-thr-1-var-58-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">58</data>
+</node>
+<node id="var-80-out-1">
+  <data key="d1">PRKD1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">80</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-58-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">58</data>
+</node>
+<node id="var-59-out-0">
+  <data key="d1">MDM2</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">101</data>
+</node>
+<node id="var-59-out-1">
+  <data key="d1">MDM2</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">101</data>
+</node>
+<node id="thr-2-var-59-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">59</data>
+</node>
+<node id="thr-0-var-60-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">60</data>
+</node>
+<node id="var-72-out-1">
+  <data key="d1">PARK2</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">72</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-60-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">60</data>
+</node>
+<node id="fus-0-thr-2-var-60-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">60</data>
+</node>
+<node id="var-72-out-0">
+  <data key="d1">PARK2</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">72</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-61-out-0">
+  <data key="d1">MON1A</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">83</data>
+</node>
+<node id="var-61-out-1">
+  <data key="d1">MON1A</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">83</data>
+</node>
+<node id="thr-0-var-62-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">62</data>
+</node>
+<node id="fus-0-thr-0-var-62-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">62</data>
+</node>
+<node id="var-92-out-0">
+  <data key="d1">RPTOR</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">92</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-62-out-1">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">62</data>
+</node>
+<node id="var-92-out-1">
+  <data key="d1">RPTOR</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">92</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-103-out-0">
+  <data key="d1">TSC2</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">103</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-103-out-1">
+  <data key="d1">TSC2</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">103</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-64-out-0">
+  <data key="d1">MYC</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">64</data>
+</node>
+<node id="var-64-out-1">
+  <data key="d1">MYC</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">64</data>
+</node>
+<node id="thr-0-var-64-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">64</data>
+</node>
+<node id="fus-0-thr-0-var-64-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">64</data>
+</node>
+<node id="thr-2-var-64-out-1">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">64</data>
+</node>
+<node id="var-66-out-0">
+  <data key="d1">NEDD4</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">81</data>
+</node>
+<node id="var-66-out-1">
+  <data key="d1">NEDD4</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">81</data>
+</node>
+<node id="var-67-out-0">
+  <data key="d1">NFE2L2</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">67</data>
+</node>
+<node id="var-67-out-1">
+  <data key="d1">NFE2L2</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">67</data>
+</node>
+<node id="thr-0-var-67-out-0">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">67</data>
+</node>
+<node id="thr-1-var-67-out-1">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">67</data>
+</node>
+<node id="fus-0-thr-1-var-67-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">67</data>
+</node>
+<node id="var-68-out-0">
+  <data key="d1">NFKBIA</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">69</data>
+</node>
+<node id="var-68-out-1">
+  <data key="d1">NFKBIA</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">69</data>
+</node>
+<node id="var-69-out-0">
+  <data key="d1">NFkappaB</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">69</data>
+</node>
+<node id="var-69-out-1">
+  <data key="d1">NFkappaB</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">69</data>
+</node>
+<node id="var-70-out-0">
+  <data key="d1">NQO1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">True</data>
+  <data key="d6">101</data>
+</node>
+<node id="var-70-out-1">
+  <data key="d1">NQO1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">True</data>
+  <data key="d6">101</data>
+</node>
+<node id="var-77-out-0">
+  <data key="d1">PINK1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">77</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-77-out-1">
+  <data key="d1">PINK1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">77</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-73-out-0">
+  <data key="d1">PDGFRA</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-73-out-1">
+  <data key="d1">PDGFRA</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-75-out-0">
+  <data key="d1">PIK3C3</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d6">106</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-75-out-1">
+  <data key="d1">PIK3C3</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d6">106</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-75-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">75</data>
+</node>
+<node id="var-106-out-0">
+  <data key="d1">UVRAG</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">106</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-75-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">75</data>
+</node>
+<node id="fus-0-thr-2-var-75-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">75</data>
+</node>
+<node id="var-106-out-1">
+  <data key="d1">UVRAG</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">106</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-0-var-76-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">76</data>
+</node>
+<node id="fus-0-thr-0-var-76-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-81-out-1">
+  <data key="d1">PTEN</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">81</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-1-var-76-out-0">
+  <data key="d1">5</data>
+  <data key="d2">threshold</data>
+  <data key="d7">5</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-85-out-0">
+  <data key="d1">RAS</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">85</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-76-out-1">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-81-out-0">
+  <data key="d1">PTEN</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">81</data>
+  <data key="d5">False</data>
+</node>
+<node id="fus-0-thr-2-var-76-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">76</data>
+</node>
+<node id="var-85-out-1">
+  <data key="d1">RAS</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">85</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-0-var-79-out-0">
+  <data key="d1">4</data>
+  <data key="d2">threshold</data>
+  <data key="d7">4</data>
+  <data key="d6">79</data>
+</node>
+<node id="thr-1-var-79-out-1">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">79</data>
+</node>
+<node id="fus-0-thr-1-var-79-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">79</data>
+</node>
+<node id="var-89-out-0">
+  <data key="d1">ROCK</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">89</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-81-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">81</data>
+</node>
+<node id="var-89-out-1">
+  <data key="d1">ROCK</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">89</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-82-out-0">
+  <data key="d1">Proliferation</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">82</data>
+</node>
+<node id="var-82-out-1">
+  <data key="d1">Proliferation</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">82</data>
+</node>
+<node id="thr-0-var-82-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">82</data>
+</node>
+<node id="fus-0-thr-0-var-82-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">82</data>
+</node>
+<node id="thr-1-var-82-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">82</data>
+</node>
+<node id="thr-0-var-83-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">83</data>
+</node>
+<node id="fus-0-thr-0-var-83-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">83</data>
+</node>
+<node id="thr-1-var-83-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">83</data>
+</node>
+<node id="var-94-out-0">
+  <data key="d1">SOS</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">94</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-94-out-1">
+  <data key="d1">SOS</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">94</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-86-out-0">
+  <data key="d1">RB1CC1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">107</data>
+</node>
+<node id="var-86-out-1">
+  <data key="d1">RB1CC1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">107</data>
+</node>
+<node id="var-100-out-1">
+  <data key="d1">TP53_cyto</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">100</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-100-out-0">
+  <data key="d1">TP53_cyto</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">100</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-88-out-0">
+  <data key="d1">RHOA</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">89</data>
+</node>
+<node id="var-88-out-1">
+  <data key="d1">RHOA</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">89</data>
+</node>
+<node id="var-115-out-0">
+  <data key="d1">mRNA_ROMO1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">115</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-115-out-1">
+  <data key="d1">mRNA_ROMO1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">115</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-93-out-0">
+  <data key="d1">RRAGA</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">93</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-2-var-92-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">92</data>
+</node>
+<node id="var-93-out-1">
+  <data key="d1">RRAGA</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">93</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-0-var-93-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">93</data>
+</node>
+<node id="var-95-out-0">
+  <data key="d1">SP1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">111</data>
+</node>
+<node id="var-95-out-1">
+  <data key="d1">SP1</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">111</data>
+</node>
+<node id="var-116-out-0">
+  <data key="d1">mRNA_SP1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d6">116</data>
+  <data key="d5">False</data>
+</node>
+<node id="var-116-out-1">
+  <data key="d1">mRNA_SP1</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d6">116</data>
+  <data key="d5">False</data>
+</node>
+<node id="thr-0-var-98-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">98</data>
+</node>
+<node id="fus-0-thr-0-var-98-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">98</data>
+</node>
+<node id="thr-1-var-98-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">98</data>
+</node>
+<node id="thr-0-var-100-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">100</data>
+</node>
+<node id="fus-0-thr-0-var-100-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">100</data>
+</node>
+<node id="thr-1-var-100-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">100</data>
+</node>
+<node id="fus-0-thr-1-var-100-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">100</data>
+</node>
+<node id="thr-2-var-100-out-1">
+  <data key="d1">4</data>
+  <data key="d2">threshold</data>
+  <data key="d7">4</data>
+  <data key="d6">100</data>
+</node>
+<node id="var-101-out-0">
+  <data key="d1">TP53_nuc</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">0</data>
+  <data key="d5">False</data>
+  <data key="d6">101</data>
+</node>
+<node id="var-101-out-1">
+  <data key="d1">TP53_nuc</data>
+  <data key="d2">variable</data>
+  <data key="d3">output</data>
+  <data key="d4">1</data>
+  <data key="d5">False</data>
+  <data key="d6">101</data>
+</node>
+<node id="thr-0-var-101-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">101</data>
+</node>
+<node id="fus-0-thr-0-var-101-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">101</data>
+</node>
+<node id="thr-2-var-101-out-1">
+  <data key="d1">3</data>
+  <data key="d2">threshold</data>
+  <data key="d7">3</data>
+  <data key="d6">101</data>
+</node>
+<node id="thr-2-var-103-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">103</data>
+</node>
+<node id="thr-2-var-105-out-1">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">105</data>
+</node>
+<node id="thr-0-var-107-out-0">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">107</data>
+</node>
+<node id="fus-0-thr-0-var-107-out-0">
+  <data key="d2">fusion</data>
+  <data key="d6">107</data>
+</node>
+<node id="thr-1-var-107-out-1">
+  <data key="d1">4</data>
+  <data key="d2">threshold</data>
+  <data key="d7">4</data>
+  <data key="d6">107</data>
+</node>
+<node id="thr-0-var-111-out-0">
+  <data key="d1">2</data>
+  <data key="d2">threshold</data>
+  <data key="d7">2</data>
+  <data key="d6">111</data>
+</node>
+<node id="thr-1-var-111-out-1">
+  <data key="d1">1</data>
+  <data key="d2">threshold</data>
+  <data key="d7">1</data>
+  <data key="d6">111</data>
+</node>
+<node id="fus-0-thr-1-var-111-out-1">
+  <data key="d2">fusion</data>
+  <data key="d6">111</data>
+</node>
+<node id="var-117-out-0">
+  <data key="d1">p21</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">0</data>
+  <data key="d5">True</data>
+  <data key="d6">118</data>
+</node>
+<node id="var-117-out-1">
+  <data key="d1">p21</data>
+  <data key="d2">variable</data>
+  <data key="d3">input</data>
+  <data key="d4">1</data>
+  <data key="d5">True</data>
+  <data key="d6">118</data>
+</node>
+<edge source="var-0-out-0" target="thr-0-var-35-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-0-out-0" target="thr-0-var-79-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-0-out-0" target="thr-2-var-100-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-0-out-0" target="var-0-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="var-0-out-0" target="var-93-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-0-out-0" target="var-104-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-0-out-1" target="fus-0-thr-1-var-35-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-0-out-1" target="fus-0-thr-1-var-79-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-0-out-1" target="thr-0-var-93-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-0-out-1" target="fus-0-thr-1-var-100-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-0-out-1" target="var-0-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="var-0-out-1" target="var-104-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-97-out-0" target="thr-0-var-79-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-97-out-0" target="var-1-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-97-out-1" target="fus-0-thr-1-var-79-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-97-out-1" target="var-1-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-2-out-0" target="thr-2-var-38-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-2-out-0" target="thr-1-var-41-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-2-out-0" target="thr-2-var-103-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-2-out-0" target="var-59-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-2-out-0" target="var-109-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-2-out-1" target="fus-0-thr-1-var-38-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-2-out-1" target="fus-0-thr-0-var-41-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-2-out-1" target="thr-2-var-59-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-2-out-1" target="var-103-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-2-out-1" target="var-109-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-2-out-0" target="var-2-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-63-out-0" target="thr-0-var-2-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-78-out-1" target="thr-0-var-2-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-76-out-0" target="var-2-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-76-out-0" target="var-66-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-76-out-0" target="var-88-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-2-var-2-out-1" target="var-2-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-63-out-1" target="thr-2-var-2-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-76-out-1" target="thr-2-var-2-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-76-out-1" target="thr-3-var-2-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-76-out-1" target="var-66-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-76-out-1" target="var-88-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-3-var-2-out-1" target="var-2-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-78-out-0" target="thr-3-var-2-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-3-out-0" target="fus-0-thr-1-var-19-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-3-out-0" target="thr-2-var-64-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-3-out-0" target="var-102-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-3-out-1" target="thr-2-var-19-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-3-out-1" target="fus-0-thr-0-var-64-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-3-out-1" target="var-102-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-105-out-0" target="fus-0-thr-0-var-107-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-105-out-0" target="var-3-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-1-var-3-out-0" target="var-3-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-3-out-1" target="thr-1-var-3-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-27-out-1" target="fus-0-thr-1-var-3-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-27-out-1" target="fus-0-thr-0-var-19-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-27-out-1" target="var-9-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-62-out-1" target="fus-0-thr-1-var-3-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-62-out-1" target="fus-0-thr-0-var-98-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-62-out-1" target="var-5-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-62-out-1" target="var-34-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-62-out-1" target="var-73-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-62-out-1" target="var-91-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-62-out-1" target="var-105-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-2-var-3-out-1" target="var-3-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-27-out-0" target="thr-2-var-3-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-27-out-0" target="thr-2-var-19-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-27-out-0" target="var-9-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-62-out-0" target="thr-2-var-3-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-62-out-0" target="thr-1-var-98-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-62-out-0" target="thr-2-var-105-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-62-out-0" target="var-5-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-62-out-0" target="var-34-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-62-out-0" target="var-73-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-62-out-0" target="var-91-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-105-out-1" target="thr-2-var-3-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-105-out-1" target="thr-1-var-107-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-4-out-0" target="var-114-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-4-out-1" target="var-114-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-110-out-0" target="var-4-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-110-out-1" target="var-4-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-5-out-0" target="fus-0-thr-0-var-107-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-5-out-1" target="thr-1-var-107-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-6-out-0" target="thr-1-var-75-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-6-out-1" target="fus-0-thr-2-var-75-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-19-out-0" target="fus-0-thr-0-var-18-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-19-out-0" target="var-6-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-19-out-0" target="var-75-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-19-out-1" target="thr-2-var-18-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-19-out-1" target="thr-2-var-75-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-19-out-1" target="var-6-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-7-out-0" target="var-55-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-7-out-1" target="var-55-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-10-out-0" target="var-7-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-10-out-1" target="var-7-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-8-out-0" target="thr-2-var-59-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-8-out-0" target="var-97-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-8-out-1" target="var-59-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-8-out-1" target="var-97-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-71-out-0" target="thr-0-var-35-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-71-out-0" target="var-8-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-71-out-0" target="var-38-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-71-out-0" target="var-71-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="var-71-out-1" target="fus-0-thr-1-var-35-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-71-out-1" target="thr-2-var-38-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-71-out-1" target="var-8-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-71-out-1" target="var-71-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="var-74-out-0" target="var-10-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-74-out-0" target="var-61-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-74-out-0" target="var-108-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-74-out-1" target="var-10-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-74-out-1" target="var-61-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-74-out-1" target="var-108-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-11-out-0" target="fus-0-thr-0-var-12-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-11-out-1" target="thr-1-var-12-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-0-var-11-out-0" target="var-11-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-11-out-0" target="thr-0-var-11-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-55-out-0" target="fus-0-thr-0-var-11-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-108-out-0" target="fus-0-thr-0-var-11-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-1-var-11-out-1" target="var-11-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-55-out-1" target="thr-1-var-11-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-108-out-1" target="thr-1-var-11-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-12-out-0" target="thr-3-var-15-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-12-out-0" target="thr-2-var-17-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-12-out-0" target="fus-0-thr-2-var-60-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-12-out-0" target="var-13-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-12-out-1" target="thr-0-var-15-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-12-out-1" target="fus-0-thr-1-var-17-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-12-out-1" target="thr-0-var-60-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-12-out-1" target="var-13-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-12-out-0" target="var-12-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-12-out-0" target="thr-0-var-12-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-83-out-0" target="fus-0-thr-0-var-12-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-1-var-12-out-1" target="var-12-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-83-out-1" target="thr-1-var-12-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-13-out-0" target="thr-0-var-93-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-13-out-1" target="var-93-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-14-out-0" target="var-60-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-14-out-1" target="thr-2-var-60-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-16-out-1" target="thr-2-var-18-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-16-out-1" target="var-14-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-1-var-14-out-0" target="var-14-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-15-out-0" target="thr-1-var-14-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-15-out-0" target="thr-2-var-18-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-17-out-0" target="thr-1-var-14-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-17-out-0" target="thr-2-var-19-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-20-out-0" target="thr-1-var-14-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-2-var-14-out-1" target="var-14-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-16-out-0" target="thr-2-var-14-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-16-out-0" target="fus-0-thr-0-var-18-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="fus-0-thr-2-var-14-out-1" target="thr-2-var-14-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-15-out-1" target="fus-0-thr-2-var-14-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-15-out-1" target="fus-0-thr-1-var-18-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-17-out-1" target="fus-0-thr-2-var-14-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-17-out-1" target="fus-0-thr-0-var-19-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-20-out-1" target="fus-0-thr-2-var-14-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-0-var-15-out-0" target="var-15-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-96-out-0" target="thr-0-var-15-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-111-out-0" target="var-15-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-2-var-15-out-1" target="var-15-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-96-out-1" target="thr-2-var-15-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-111-out-1" target="thr-2-var-15-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-111-out-1" target="thr-3-var-15-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-3-var-15-out-1" target="var-15-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-0-var-16-out-0" target="var-16-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-16-out-1" target="thr-0-var-16-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-52-out-1" target="fus-0-thr-0-var-16-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-52-out-1" target="thr-0-var-67-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-58-out-1" target="fus-0-thr-0-var-16-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-58-out-1" target="fus-0-thr-1-var-17-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-58-out-1" target="fus-0-thr-1-var-18-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-58-out-1" target="fus-0-thr-1-var-38-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-112-out-0" target="var-16-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-2-var-16-out-1" target="var-16-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-52-out-0" target="thr-2-var-16-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-52-out-0" target="fus-0-thr-1-var-67-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-58-out-0" target="thr-2-var-16-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-58-out-0" target="thr-2-var-17-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-58-out-0" target="thr-2-var-18-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-58-out-0" target="thr-2-var-38-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-112-out-1" target="thr-2-var-16-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-113-out-0" target="var-17-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-1-var-17-out-0" target="var-17-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-24-out-0" target="thr-1-var-17-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-24-out-0" target="thr-0-var-111-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="fus-0-thr-1-var-17-out-1" target="thr-1-var-17-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-2-var-17-out-1" target="var-17-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-113-out-1" target="thr-2-var-17-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-113-out-1" target="thr-3-var-17-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-3-var-17-out-1" target="var-17-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-24-out-1" target="thr-3-var-17-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-24-out-1" target="fus-0-thr-1-var-111-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-18-out-0" target="thr-2-var-19-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-18-out-1" target="fus-0-thr-0-var-19-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-0-var-18-out-0" target="var-18-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-18-out-0" target="thr-0-var-18-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-1-var-18-out-0" target="var-18-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-18-out-1" target="thr-1-var-18-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-30-out-1" target="fus-0-thr-1-var-18-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-30-out-1" target="var-80-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-57-out-1" target="fus-0-thr-1-var-18-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-57-out-1" target="fus-0-thr-1-var-30-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-57-out-1" target="thr-2-var-64-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-57-out-1" target="fus-0-thr-0-var-98-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-2-var-18-out-1" target="var-18-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-30-out-0" target="thr-2-var-18-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-30-out-0" target="var-80-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-57-out-0" target="thr-2-var-18-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-57-out-0" target="thr-0-var-30-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-57-out-0" target="thr-1-var-98-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-57-out-0" target="var-64-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-19-out-0" target="var-19-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-19-out-1" target="thr-0-var-19-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-109-out-1" target="fus-0-thr-0-var-19-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-1-var-19-out-0" target="var-19-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-19-out-0" target="thr-1-var-19-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-102-out-0" target="fus-0-thr-1-var-19-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-102-out-0" target="fus-0-thr-0-var-107-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-102-out-0" target="var-45-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-107-out-0" target="fus-0-thr-1-var-19-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-2-var-19-out-1" target="var-19-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-102-out-1" target="thr-2-var-19-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-102-out-1" target="thr-1-var-107-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-102-out-1" target="var-45-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-107-out-1" target="thr-2-var-19-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-109-out-0" target="thr-2-var-19-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-22-out-0" target="thr-0-var-27-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-22-out-0" target="var-20-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-22-out-1" target="fus-0-thr-1-var-27-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-22-out-1" target="var-20-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-21-out-0" target="thr-0-var-79-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-21-out-1" target="fus-0-thr-1-var-79-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-25-out-0" target="thr-0-var-30-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-25-out-0" target="var-21-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-25-out-1" target="fus-0-thr-1-var-30-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-25-out-1" target="var-21-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-99-out-0" target="var-22-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-99-out-0" target="var-37-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-99-out-0" target="var-99-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="var-37-out-1" target="var-22-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-2-var-22-out-1" target="var-22-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-37-out-0" target="thr-2-var-22-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-99-out-1" target="thr-2-var-22-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-99-out-1" target="var-37-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-99-out-1" target="var-99-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="var-23-out-0" target="var-24-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-23-out-0" target="var-112-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-23-out-0" target="var-113-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-23-out-1" target="var-24-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-23-out-1" target="var-112-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-23-out-1" target="var-113-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-114-out-0" target="var-23-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-114-out-1" target="var-23-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-35-out-0" target="var-25-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-35-out-0" target="var-32-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-35-out-0" target="var-46-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-35-out-0" target="var-48-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-35-out-1" target="var-25-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-35-out-1" target="var-32-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-35-out-1" target="var-46-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-35-out-1" target="var-48-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-26-out-0" target="thr-0-var-27-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-26-out-1" target="fus-0-thr-1-var-27-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-29-out-0" target="var-26-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-29-out-1" target="var-26-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-27-out-0" target="var-27-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-1-var-27-out-1" target="var-27-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-27-out-1" target="thr-1-var-27-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-28-out-0" target="fus-0-thr-0-var-82-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-28-out-1" target="thr-1-var-82-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-118-out-1" target="var-28-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-118-out-0" target="var-28-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-60-out-0" target="var-29-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-60-out-0" target="var-77-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-60-out-1" target="var-29-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-60-out-1" target="var-77-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-30-out-0" target="var-30-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-1-var-30-out-1" target="var-30-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-30-out-1" target="thr-1-var-30-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-31-out-0" target="thr-1-var-76-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-31-out-0" target="var-40-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-31-out-1" target="fus-0-thr-2-var-76-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-31-out-1" target="var-40-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-43-out-0" target="var-31-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-43-out-0" target="var-43-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="var-43-out-0" target="var-79-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-43-out-0" target="var-115-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-43-out-1" target="thr-0-var-79-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-43-out-1" target="var-31-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-43-out-1" target="var-43-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="var-43-out-1" target="var-115-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-32-out-0" target="thr-0-var-67-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-32-out-0" target="var-110-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-32-out-1" target="var-67-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-32-out-1" target="var-110-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-33-out-0" target="fus-0-thr-0-var-82-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-33-out-1" target="thr-1-var-82-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-34-out-1" target="var-33-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-34-out-0" target="var-33-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-35-out-0" target="var-35-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-42-out-0" target="thr-0-var-35-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-42-out-0" target="var-42-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="thr-1-var-35-out-1" target="var-35-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-35-out-1" target="thr-1-var-35-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-42-out-1" target="fus-0-thr-1-var-35-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-42-out-1" target="var-42-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="var-36-out-0" target="thr-2-var-62-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-36-out-1" target="var-62-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-87-out-1" target="thr-2-var-62-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-87-out-1" target="var-36-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-87-out-0" target="fus-0-thr-0-var-62-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-87-out-0" target="var-36-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-38-out-0" target="fus-0-thr-0-var-100-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-38-out-0" target="thr-2-var-101-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-38-out-0" target="var-78-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-38-out-1" target="thr-2-var-100-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-38-out-1" target="fus-0-thr-0-var-101-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-38-out-1" target="var-78-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-1-var-38-out-0" target="var-38-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-38-out-1" target="thr-1-var-38-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-2-var-38-out-1" target="var-38-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-39-out-0" target="thr-1-var-76-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-39-out-1" target="fus-0-thr-2-var-76-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-40-out-0" target="var-39-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-40-out-0" target="var-94-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-40-out-1" target="var-39-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-40-out-1" target="var-94-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-41-out-0" target="thr-2-var-64-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-41-out-0" target="fus-0-thr-1-var-67-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-41-out-1" target="fus-0-thr-0-var-64-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-41-out-1" target="thr-0-var-67-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-0-var-41-out-0" target="var-41-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-41-out-1" target="thr-0-var-41-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-91-out-1" target="fus-0-thr-0-var-41-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-91-out-1" target="var-49-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-1-var-41-out-1" target="var-41-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-91-out-0" target="thr-1-var-41-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-91-out-0" target="thr-2-var-49-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-44-out-0" target="var-116-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-44-out-1" target="var-116-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-44-out-0" target="var-44-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-65-out-0" target="thr-0-var-44-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-90-out-0" target="thr-0-var-44-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-1-var-44-out-1" target="var-44-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-44-out-1" target="thr-1-var-44-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-65-out-1" target="fus-0-thr-1-var-44-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-90-out-1" target="fus-0-thr-1-var-44-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-45-out-0" target="thr-2-var-76-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-45-out-0" target="var-68-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-45-out-1" target="fus-0-thr-0-var-76-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-45-out-1" target="var-68-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-46-out-0" target="var-47-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-46-out-1" target="var-47-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-47-out-0" target="var-65-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-47-out-1" target="var-65-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-48-out-0" target="thr-0-var-58-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-48-out-1" target="fus-0-thr-1-var-58-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-49-out-0" target="thr-1-var-76-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-49-out-1" target="fus-0-thr-2-var-76-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-50-out-0" target="var-49-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-50-out-0" target="var-50-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="thr-2-var-49-out-1" target="var-49-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-50-out-1" target="thr-2-var-49-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-50-out-1" target="var-50-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">selfloop</data>
+</edge>
+<edge source="var-51-out-0" target="fus-0-thr-0-var-58-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-51-out-1" target="thr-2-var-58-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-104-out-0" target="var-51-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-104-out-0" target="var-53-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-104-out-1" target="var-51-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-104-out-1" target="var-53-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-53-out-0" target="fus-0-thr-0-var-58-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-53-out-1" target="thr-2-var-58-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-98-out-0" target="var-54-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-98-out-1" target="var-54-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-56-out-0" target="var-57-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-56-out-1" target="var-57-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-56-out-0" target="var-56-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-79-out-0" target="thr-0-var-56-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-79-out-0" target="thr-2-var-92-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-79-out-0" target="var-103-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-79-out-0" target="var-105-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-84-out-0" target="thr-0-var-56-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-1-var-56-out-1" target="var-56-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-56-out-1" target="thr-1-var-56-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-79-out-1" target="fus-0-thr-1-var-56-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-79-out-1" target="thr-2-var-103-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-79-out-1" target="thr-2-var-105-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-79-out-1" target="var-92-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-84-out-1" target="fus-0-thr-1-var-56-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-0-var-58-out-0" target="var-58-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-80-out-0" target="thr-0-var-58-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="fus-0-thr-0-var-58-out-0" target="thr-0-var-58-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-1-var-58-out-1" target="var-58-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-58-out-1" target="thr-1-var-58-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-80-out-1" target="fus-0-thr-1-var-58-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-2-var-58-out-1" target="var-58-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-59-out-0" target="thr-2-var-100-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-59-out-0" target="thr-2-var-101-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-59-out-1" target="fus-0-thr-1-var-100-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-59-out-1" target="fus-0-thr-0-var-101-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-2-var-59-out-1" target="var-59-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-0-var-60-out-0" target="var-60-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-72-out-1" target="thr-0-var-60-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-2-var-60-out-1" target="var-60-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-2-var-60-out-0" target="thr-2-var-60-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-72-out-0" target="fus-0-thr-2-var-60-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-61-out-0" target="fus-0-thr-0-var-83-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-61-out-1" target="thr-1-var-83-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-0-var-62-out-0" target="var-62-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-62-out-0" target="thr-0-var-62-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-92-out-0" target="fus-0-thr-0-var-62-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-2-var-62-out-1" target="var-62-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-92-out-1" target="thr-2-var-62-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-103-out-0" target="var-63-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-103-out-0" target="var-87-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-103-out-1" target="var-63-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-103-out-1" target="var-87-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-64-out-0" target="var-64-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-64-out-1" target="thr-0-var-64-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-2-var-64-out-1" target="var-64-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-66-out-0" target="thr-2-var-81-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-66-out-1" target="var-81-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-67-out-0" target="var-67-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-1-var-67-out-1" target="var-67-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-67-out-0" target="thr-1-var-67-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-68-out-0" target="var-69-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-68-out-1" target="var-69-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-70-out-0" target="fus-0-thr-0-var-100-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-70-out-0" target="var-101-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-70-out-1" target="thr-2-var-100-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-70-out-1" target="thr-2-var-101-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-77-out-0" target="var-72-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-77-out-1" target="var-72-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-73-out-0" target="thr-1-var-76-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-73-out-1" target="fus-0-thr-2-var-76-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-75-out-0" target="var-74-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-75-out-0" target="var-106-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-75-out-1" target="var-74-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-75-out-1" target="var-106-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-1-var-75-out-0" target="var-75-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-106-out-0" target="thr-1-var-75-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-106-out-0" target="fus-0-thr-0-var-83-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-2-var-75-out-1" target="var-75-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-2-var-75-out-1" target="thr-2-var-75-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-106-out-1" target="fus-0-thr-2-var-75-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-106-out-1" target="thr-1-var-83-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-0-var-76-out-0" target="var-76-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-76-out-1" target="thr-0-var-76-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-81-out-1" target="fus-0-thr-0-var-76-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="thr-1-var-76-out-0" target="var-76-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-85-out-0" target="thr-1-var-76-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-85-out-0" target="var-84-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-2-var-76-out-1" target="var-76-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-81-out-0" target="thr-2-var-76-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="fus-0-thr-2-var-76-out-1" target="thr-2-var-76-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-85-out-1" target="fus-0-thr-2-var-76-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-85-out-1" target="var-84-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-79-out-0" target="var-79-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-1-var-79-out-1" target="var-79-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-79-out-1" target="thr-1-var-79-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-89-out-0" target="var-81-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-2-var-81-out-1" target="var-81-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-89-out-1" target="thr-2-var-81-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-0-var-82-out-0" target="var-82-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-82-out-0" target="thr-0-var-82-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-1-var-82-out-1" target="var-82-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-0-var-83-out-0" target="var-83-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-83-out-0" target="thr-0-var-83-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-1-var-83-out-1" target="var-83-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-94-out-0" target="var-85-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-94-out-1" target="var-85-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-86-out-0" target="fus-0-thr-0-var-107-out-0">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-86-out-1" target="thr-1-var-107-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-100-out-1" target="var-86-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-100-out-0" target="var-86-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-88-out-0" target="var-89-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-88-out-1" target="var-89-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-115-out-0" target="var-90-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-115-out-1" target="var-90-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-93-out-0" target="var-92-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-2-var-92-out-1" target="var-92-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-93-out-1" target="thr-2-var-92-out-1">
+  <data key="d8">literal</data>
+</edge>
+<edge source="thr-0-var-93-out-0" target="var-93-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="var-95-out-0" target="thr-0-var-111-out-0">
+  <data key="d8">literal</data>
+</edge>
+<edge source="var-95-out-0" target="var-96-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-95-out-1" target="fus-0-thr-1-var-111-out-1">
+  <data key="d8">fusing</data>
+</edge>
+<edge source="var-95-out-1" target="var-96-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-116-out-0" target="var-95-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-116-out-1" target="var-95-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="thr-0-var-98-out-0" target="var-98-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-98-out-1" target="thr-0-var-98-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-1-var-98-out-1" target="var-98-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-0-var-100-out-0" target="var-100-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-100-out-0" target="thr-0-var-100-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-1-var-100-out-0" target="var-100-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-100-out-1" target="thr-1-var-100-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-2-var-100-out-1" target="var-100-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-0-var-101-out-0" target="var-101-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-101-out-1" target="thr-0-var-101-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-2-var-101-out-1" target="var-101-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-2-var-103-out-1" target="var-103-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-2-var-105-out-1" target="var-105-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-0-var-107-out-0" target="var-107-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-0-var-107-out-0" target="thr-0-var-107-out-0">
+  <data key="d8">fused</data>
+</edge>
+<edge source="thr-1-var-107-out-1" target="var-107-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-0-var-111-out-0" target="var-111-out-0">
+  <data key="d8">out</data>
+</edge>
+<edge source="thr-1-var-111-out-1" target="var-111-out-1">
+  <data key="d8">out</data>
+</edge>
+<edge source="fus-0-thr-1-var-111-out-1" target="thr-1-var-111-out-1">
+  <data key="d8">fused</data>
+</edge>
+<edge source="var-117-out-0" target="var-118-out-0">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+<edge source="var-117-out-1" target="var-118-out-1">
+  <data key="d8">simplified</data>
+  <data key="d9">direct</data>
+</edge>
+</graph></graphml>

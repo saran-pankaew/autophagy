@@ -1,0 +1,8 @@
+Targets,mTORC1,mTORC2,PRKA,ULK1,AKT,Beclin1,BCL2,caspase,lc3,p62,cytc,bax,calpain
+Glucose_starv,0,,1,1,,,,,,,,,
+AA_starvation,0,,1,1,,,,,,,,,
+rapamycin,0,0,1,1,,,,,,,,,
+Full starvation,0,0,1,1,1,1,1,1,1,1,1,,1
+aa+GF stravation,0,0,1,1,1,,,,,,,,
+nutrein starv (Glu+AA i guess),0,0,1,,,1,1,1,,,,1,
+fed,1,1,0,0,,,,,,,,,

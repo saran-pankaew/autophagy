@@ -1,0 +1,123 @@
+# model in BoolNet format
+# the header targets, factors is mandatory to be importable in the R package BoolNet
+
+targets, factors
+AA_Starvation,     AA_Starvation
+AHSA1,             STK11
+AKT1,              PIK3CA&!PPP2R | PIK3CA&PPP2R&MTOR_C2
+AMBRA1,            !MTOR&ULK1&!Caspase_3_6_7_C
+ATF4,              mRNA_ATF4
+ATG13,             !MTOR
+ATG14,             BECN1
+ATG3,              Atg16L_Atg5_Atg12
+ATM,               O_stress
+Apoptosis,         Caspase_3_6_7_C
+Atg16L_Atg5_Atg12, PI3P
+Atphgo_form,       MAP1LC3A_II&WIPI_1
+Atphgo_mat,        RAB7A&Atphgo_form
+Autop_digestion,   Atphgo_mat
+BAX,               !BBC3&!BCL2L11&!BCL2&BID | !BBC3&BCL2L11&!BCL2 | BBC3&!BCL2
+BBC3,              !Atphgo_mat&mRNA_BBC3 | Atphgo_mat&mRNA_BBC3&SP1_sustained
+BCL2,              !KEAP1&!MAPK8&mRNA_BCL2
+BCL2L11,           !Atphgo_mat&!MAPK8&mRNA_BCL2L11 | !Atphgo_mat&MAPK8&mRNA_BCL2L11&CHOP_sustained | Atphgo_mat&mRNA_BCL2L11&CHOP_sustained
+BCL2_BECN1_C,      BECN1&!BBC3&!MAPK8&!DAPK1&!MAP3K&BCL2
+BECN1,             Ulk_C&AMBRA1&!BCL2_BECN1_C&TRAF6&!Caspase_3_6_7_C&!BCL2L11&!YWHAB
+BID,               CASP8
+CAMKKB,            Ca_cyto
+CASP8,             TNF_R_or_DR&!FLIP
+CHOP,              mRNA_CHOP
+CHOP_sustained,    CHOP
+Ca_cyto,           ER_stress
+Caspase9_APAF1_C,  Cyt_C
+Caspase_3_6_7_C,   !Caspase9_APAF1_C&CASP8 | Caspase9_APAF1_C
+Cell_cycle,        !pRB
+Cyt_C,             MOMP
+DAPK1,             !MAP3K&Ca_cyto | MAP3K
+EGFR,              Growth_factor
+EIF2AK3,           ER_stress
+EIF4E,             !EIF4EBP1
+EIF4EBP1,          !MTOR
+ER_stress,         !O_stress&!AA_Starvation&Glucose_starv | !O_stress&AA_Starvation | O_stress
+FKBP8,             !RHEB
+FLIP,              TNF_R_or_DR
+FOXO,              O_stress&!AKT1&!MAPK8
+GAB,               GRB2
+GRB2,              EGFR
+GSK3A,             !AKT1&!RPS6KB1
+Glucose_starv,     Glucose_starv
+Growth_factor,     Growth_factor
+H2O2,              !Mito_overcharge&ROMO1 | Mito_overcharge
+IKBKB,             TRAF6
+IP3R,              ER_stress
+IP3R_VDAC,         IP3R
+IRE1,              ER_stress
+IRS1,              !RPS6KB1&Insuline
+Insuline,          Insuline
+JIP,               Tubulin
+KEAP1,             0
+Kinesin_1,         Tubulin
+Lysosome_prod,     TFEB
+MAP1LC3A_II,       ATG3
+MAP2K1,            !PRKA&RAF | PRKA
+MAP3K,             MAP2K1
+MAPK8,             !PRKD1&!JIP&IRE1 | !PRKD1&JIP&!Kinesin_1&IRE1 | !PRKD1&JIP&Kinesin_1 | PRKD1
+MDM2,              !ATM&AKT1
+MOMP,              !Atphgo_mat&BAX | Atphgo_mat&BAX&!PARK2
+MON1A,             PI3P
+MTOR,              RPTOR&RHEB&!FKBP8
+MTOR_C2,           TSC2
+MYC,               !GSK3A&!AMBRA1&MAP3K
+Mito_overcharge,   IP3R_VDAC
+NEDD4,             PIK3CA
+NFE2L2,            !KEAP1 | KEAP1&!GSK3A | KEAP1&GSK3A&EIF2AK3
+NFKBIA,            !IKBKB
+NFkappaB,          !NFKBIA
+NQO1,              0
+O_stress,          O_stress
+PARK2,             PINK1
+PDGFRA,            !MTOR
+PI3P,              PIK3C3
+PIK3C3,            BECN1&!ATG14&UVRAG | BECN1&ATG14
+PIK3CA,            !IRS1&!PTEN&!PDGFRA&!IKBKB&!RAS&!GAB&EGFR | !IRS1&!PTEN&!PDGFRA&!IKBKB&!RAS&GAB | !IRS1&!PTEN&!PDGFRA&!IKBKB&RAS | !IRS1&!PTEN&PDGFRA&!IKBKB | IRS1&!PTEN&!IKBKB
+PINK1,             MOMP
+PPP2R,             FOXO
+PRKA,              !Growth_factor | Growth_factor&!AA_Starvation&!STK11&CAMKKB | Growth_factor&!AA_Starvation&STK11 | Growth_factor&AA_Starvation
+PRKD1,             DAPK1
+PTEN,              ROCK&!NEDD4
+Proliferation,     EIF4E&Cell_cycle
+RAB7A,             UVRAG&MON1A
+RAF,               RAS
+RAS,               SOS
+RB1CC1,            !TP53_cyto
+RHEB,              !TSC2
+RHOA,              !PIK3CA
+ROCK,              RHOA
+ROMO1,             mRNA_ROMO1
+RPS6KB1,           MTOR
+RPTOR,             !PRKA&RRAGA
+RRAGA,             !AA_Starvation | AA_Starvation&Autop_digestion
+SOS,               GRB2
+SP1,               mRNA_SP1
+SP1_sustained,     SP1
+STK11,             ATM
+TFEB,              !MTOR&!MAP3K
+TNF_R_or_DR,       TNF_R_or_DR
+TP53_cyto,         !AA_Starvation&NQO1&FOXO&!MDM2
+TP53_nuc,          NQO1&!FOXO&!MDM2
+TRAF6,             AMBRA1
+TSC2,              PRKA&!AKT1
+Tubulin,           AA_Starvation
+ULK1,              !MTOR&PRKA
+UVRAG,             PIK3C3
+Ulk_C,             ATG13&RB1CC1&ULK1&TRAF6
+WIPI_1,            PI3P
+YWHAB,             AKT1
+mRNA_ATF4,         EIF2AK3
+mRNA_BBC3,         !SP1&CHOP_sustained | SP1
+mRNA_BCL2,         !CHOP
+mRNA_BCL2L11,      CHOP
+mRNA_CHOP,         ATF4
+mRNA_ROMO1,        !Growth_factor
+mRNA_SP1,          H2O2
+p21,               0
+pRB,               p21
