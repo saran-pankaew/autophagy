@@ -1,0 +1,6 @@
+targets, factors
+Nutrients, Nutrients
+MTOR, Nutrients
+ULK1, !MTOR
+BECN1, ULK1 & !CASP3
+CASP3, !MTOR & !BECN1

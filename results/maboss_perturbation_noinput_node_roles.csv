@@ -1,0 +1,108 @@
+node,Apoptosis,Proliferation,Autop_digestion
+AHSA1,no effect,no effect,no effect
+AKT1,"activator, sufficient (ON↑ only)","activator, sufficient (ON↑ only)","inhibitor, sufficient (ON↓ only)"
+AMBRA1,no effect,no effect,activator (ON↑ OFF↓)
+ATF4,"activator, sufficient (ON↑ only)",no effect,"inhibitor, sufficient (ON↓ only)"
+ATG13,no effect,no effect,"activator, needed (OFF↓ only)"
+ATG14,no effect,no effect,"activator, needed (OFF↓ only)"
+ATG3,no effect,no effect,"activator, needed (OFF↓ only)"
+ATM,no effect,no effect,no effect
+Atg16L_Atg5_Atg12,no effect,no effect,"activator, needed (OFF↓ only)"
+BAX,activator (ON↑ OFF↓),no effect,inhibitor (ON↓ OFF↑)
+BBC3,"activator, needed (OFF↓ only)",no effect,"inhibitor, needed (OFF↑ only)"
+BCL2L11,no effect,no effect,"inhibitor, sufficient (ON↓ only)"
+BCL2_BECN1_C,no effect,no effect,"inhibitor, sufficient (ON↓ only)"
+BCL2,inhibitor (ON↓ OFF↑),no effect,"activator, sufficient (ON↑ only)"
+BECN1,"inhibitor, sufficient (ON↓ only)",no effect,activator (ON↑ OFF↓)
+BID,no effect,no effect,no effect
+CAMKKB,no effect,no effect,no effect
+CASP8,"activator, sufficient (ON↑ only)",no effect,"inhibitor, sufficient (ON↓ only)"
+CHOP,"activator, sufficient (ON↑ only)",no effect,"inhibitor, sufficient (ON↓ only)"
+CHOP_sustained,no effect,no effect,no effect
+Ca_cyto,"activator, sufficient (ON↑ only)",no effect,no effect
+Caspase9_APAF1_C,activator (ON↑ OFF↓),no effect,inhibitor (ON↓ OFF↑)
+Caspase_3_6_7_C,activator (ON↑ OFF↓),no effect,inhibitor (ON↓ OFF↑)
+Cell_cycle,no effect,"activator, needed (OFF↓ only)",no effect
+Cyt_C,activator (ON↑ OFF↓),no effect,inhibitor (ON↓ OFF↑)
+DAPK1,activator (ON↑ OFF↓),no effect,"inhibitor, needed (OFF↑ only)"
+EGFR,"activator, sufficient (ON↑ only)","activator, sufficient (ON↑ only)",no effect
+EIF2AK3,"activator, sufficient (ON↑ only)",no effect,"inhibitor, sufficient (ON↓ only)"
+EIF4EBP1,no effect,inhibitor (ON↓ OFF↑),no effect
+EIF4E,no effect,activator (ON↑ OFF↓),no effect
+ER_stress,"activator, sufficient (ON↑ only)",no effect,"inhibitor, sufficient (ON↓ only)"
+FKBP8,"inhibitor, sufficient (ON↓ only)",inhibitor (ON↓ OFF↑),no effect
+FLIP,no effect,no effect,no effect
+FOXO,no effect,no effect,no effect
+GAB,no effect,"activator, sufficient (ON↑ only)",no effect
+GRB2,"activator, sufficient (ON↑ only)","activator, sufficient (ON↑ only)","inhibitor, sufficient (ON↓ only)"
+GSK3A,no effect,no effect,no effect
+H2O2,"activator, needed (OFF↓ only)",no effect,"inhibitor, needed (OFF↑ only)"
+IKBKB,no effect,no effect,no effect
+IP3R,no effect,no effect,no effect
+IP3R_VDAC,no effect,no effect,no effect
+IRE1,"activator, sufficient (ON↑ only)",no effect,no effect
+IRS1,no effect,"activator, sufficient (ON↑ only)",no effect
+JIP,no effect,no effect,no effect
+KEAP1,"activator, sufficient (ON↑ only)",no effect,"inhibitor, sufficient (ON↓ only)"
+Kinesin_1,no effect,no effect,no effect
+MAP1LC3A_II,no effect,no effect,"activator, needed (OFF↓ only)"
+MAP2K1,activator (ON↑ OFF↓),no effect,"inhibitor, needed (OFF↑ only)"
+MAP3K,activator (ON↑ OFF↓),no effect,"inhibitor, needed (OFF↑ only)"
+MAPK8,activator (ON↑ OFF↓),no effect,"inhibitor, needed (OFF↑ only)"
+MDM2,no effect,no effect,no effect
+MOMP,activator (ON↑ OFF↓),no effect,inhibitor (ON↓ OFF↑)
+MON1A,no effect,no effect,"activator, needed (OFF↓ only)"
+MTOR_C2,no effect,no effect,no effect
+MTOR,activator (ON↑ OFF↓),activator (ON↑ OFF↓),"inhibitor, sufficient (ON↓ only)"
+MYC,no effect,no effect,no effect
+Mito_overcharge,no effect,no effect,no effect
+NEDD4,no effect,"activator, sufficient (ON↑ only)",no effect
+NFE2L2,no effect,no effect,no effect
+NFKBIA,no effect,no effect,no effect
+NFkappaB,no effect,no effect,no effect
+NQO1,no effect,"inhibitor, sufficient (ON↓ only)",no effect
+PARK2,no effect,no effect,no effect
+PDGFRA,no effect,no effect,no effect
+PI3P,no effect,no effect,activator (ON↑ OFF↓)
+PIK3C3,"inhibitor, sufficient (ON↓ only)",no effect,activator (ON↑ OFF↓)
+PIK3CA,"activator, sufficient (ON↑ only)","activator, sufficient (ON↑ only)","inhibitor, sufficient (ON↓ only)"
+PINK1,no effect,no effect,no effect
+PPP2R,no effect,no effect,no effect
+PRKA,activator (ON↑ OFF↓),inhibitor (ON↓ OFF↑),activator (ON↑ OFF↓)
+PRKD1,activator (ON↑ OFF↓),no effect,inhibitor (ON↓ OFF↑)
+PTEN,no effect,"inhibitor, needed (OFF↑ only)",no effect
+RAB7A,no effect,no effect,activator (ON↑ OFF↓)
+RAF,"activator, sufficient (ON↑ only)",no effect,no effect
+RAS,"activator, sufficient (ON↑ only)","activator, sufficient (ON↑ only)","inhibitor, sufficient (ON↓ only)"
+RB1CC1,no effect,no effect,"activator, needed (OFF↓ only)"
+RHEB,activator (ON↑ OFF↓),activator (ON↑ OFF↓),no effect
+RHOA,no effect,"inhibitor, needed (OFF↑ only)",no effect
+ROCK,no effect,"inhibitor, needed (OFF↑ only)",no effect
+ROMO1,"activator, needed (OFF↓ only)",no effect,"inhibitor, needed (OFF↑ only)"
+RPS6KB1,no effect,no effect,no effect
+RPTOR,activator (ON↑ OFF↓),activator (ON↑ OFF↓),no effect
+RRAGA,"activator, needed (OFF↓ only)","activator, needed (OFF↓ only)",no effect
+SOS,"activator, sufficient (ON↑ only)","activator, sufficient (ON↑ only)",no effect
+SP1,"activator, needed (OFF↓ only)",no effect,"inhibitor, needed (OFF↑ only)"
+SP1_sustained,no effect,no effect,no effect
+STK11,no effect,no effect,no effect
+TFEB,no effect,no effect,no effect
+TP53_cyto,no effect,no effect,"inhibitor, sufficient (ON↓ only)"
+TP53_nuc,no effect,"inhibitor, sufficient (ON↓ only)","inhibitor, sufficient (ON↓ only)"
+TRAF6,no effect,no effect,activator (ON↑ OFF↓)
+TSC2,inhibitor (ON↓ OFF↑),inhibitor (ON↓ OFF↑),no effect
+Tubulin,"activator, sufficient (ON↑ only)",no effect,no effect
+ULK1,inhibitor (ON↓ OFF↑),activator (ON↑ OFF↓),same direction ON and OFF
+UVRAG,no effect,no effect,activator (ON↑ OFF↓)
+Ulk_C,no effect,no effect,activator (ON↑ OFF↓)
+WIPI_1,no effect,no effect,"activator, needed (OFF↓ only)"
+YWHAB,no effect,no effect,"inhibitor, sufficient (ON↓ only)"
+mRNA_ATF4,"activator, sufficient (ON↑ only)",no effect,"inhibitor, sufficient (ON↓ only)"
+mRNA_BBC3,"activator, needed (OFF↓ only)",no effect,"inhibitor, needed (OFF↑ only)"
+mRNA_BCL2L11,no effect,no effect,"inhibitor, sufficient (ON↓ only)"
+mRNA_BCL2,"inhibitor, needed (OFF↑ only)",no effect,"activator, needed (OFF↓ only)"
+mRNA_CHOP,"activator, sufficient (ON↑ only)",no effect,"inhibitor, sufficient (ON↓ only)"
+mRNA_ROMO1,"activator, needed (OFF↓ only)",no effect,"inhibitor, needed (OFF↑ only)"
+mRNA_SP1,"activator, needed (OFF↓ only)",no effect,"inhibitor, needed (OFF↑ only)"
+p21,no effect,"inhibitor, sufficient (ON↓ only)",no effect
+pRB,no effect,"inhibitor, sufficient (ON↓ only)",no effect
